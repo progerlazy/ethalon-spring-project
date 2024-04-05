@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ethalon-spring
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: ${POSTGRES_URL}
+    username: ${POSTGRES_USER_NAME}
+    password: ${POSTGRES_PASSWORD}
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 10
+      connection-timeout: 30000
+      max-lifetime: 200000
+      idle-timeout: 30000
+      pool-name: SpringBootJPAHikariCP
+      allow-pool-suspension: true

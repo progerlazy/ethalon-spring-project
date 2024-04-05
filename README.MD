@@ -1,0 +1,1 @@
+### Typical Spring Boot Project with example environments
