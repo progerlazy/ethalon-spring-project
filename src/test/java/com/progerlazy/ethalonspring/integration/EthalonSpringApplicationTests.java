@@ -1,7 +1,6 @@
-package com.progerlazy.ethalonspring;
+package com.progerlazy.ethalonspring.integration;
 
 import com.progerlazy.ethalonspring.docker.WithDatabaseInitializer;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ConfigurableApplicationContext;
