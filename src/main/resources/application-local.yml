@@ -1,0 +1,4 @@
+#DataSource
+POSTGRES_URL: 'jdbc:postgresql://localhost:5432/ethalon_application?currentSchema=ethalon_application'
+POSTGRES_USER_NAME: 'postgres'
+POSTGRES_PASSWORD: 'postgres'
